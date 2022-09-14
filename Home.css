@@ -1,0 +1,310 @@
+@font-face {
+    font-family: poppins-regular;
+    src: url(font/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: poppins-bold;
+    src: url(font/Poppins-Bold.ttf);
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.background {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(#242424, #1a1a1a);
+    background-size: cover;
+    background-position: center;
+}
+
+.bitsname {
+    transform: scale(1);
+    background: rgba(0,0,0,0);
+    padding-top: 0px;
+    position: relative;
+    top: 20px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    text-shadow: 0px 0px 8px white;
+    font-family: poppins-regular;
+}
+
+.bitsbutton:hover .bitsname {
+    transition: 0.3s ease;
+    transform: scale(1.1);
+}
+
+
+.bitsdisplay {
+    font-size: 40px;
+}
+
+.bitsbutton {
+    height: 220px;
+    transform: scale(1);
+    border: transparent;
+    background: rgba(0,0,0,0);
+    position: relative;
+    left: 42%;
+    top: 20%;
+    color: white;
+    text-shadow: 0px 0px 8px white;
+    font-family: poppins-regular;
+    font-size: 50px;
+    transition: 0.3s ease;
+}
+
+.bitsbutton:hover {
+    transition: 0.3s ease;
+    transform: scale(1.03);
+    background: rgba(0,0,0,0.5)
+}
+
+.bitsbutton:active {
+    transition: 0.3s ease;
+    background: rgba(225,255,255,0.4);
+    transform: scale(0.9);
+}
+
+.bitsbuttonvalue {
+    text-align: center;
+    width: 215px;
+    height: min-content;
+    position: absolute;
+    top: 70px;
+}
+
+.upgradecontent {
+    position: relative;
+    height: 500px;
+    left: 70%;
+    bottom: 23%;
+
+}
+
+/*--HTML--*/
+
+.htmlupgrade {
+    position: relative;
+    left: 10px;
+    top: 10px;
+    width: 380px;
+    height: 80px;
+    transform: scale(1);
+    display: flex;
+    text-align: left;
+    background: rgba(0,0,0,0.5);
+    border: transparent;
+    transition: 0.3s ease;
+}
+
+.htmlupgrade:hover {
+    transition: 0.3s ease;
+    transform: scale(1.03);
+}
+
+.htmlupgrade:active {
+    transition: 0.3s ease;
+    background: rgba(241, 101, 41, 1);
+    transform: scale(0.9);
+}
+
+.htmlcontent {
+    padding-left: 10px;
+}
+
+.htmltext1 {
+    color: #F16529;
+    text-shadow: 0px 0px 8px #F16529;
+    font-size: 20px;
+    font-family: poppins-bold;
+}
+
+.htmltext2 {
+    color: white;
+    font-family: poppins-regular;
+    text-shadow: 0px 0px 8px white;
+}
+
+.upgradelabel {
+    padding-left: 10px;
+    font-family: poppins-bold;
+    font-size: 20px;
+    color: white;
+    text-shadow: 0px 0px 8px white;
+}
+
+.htmleffect {
+    background: #F16529;
+    position: relative;
+    right: -190px;
+    color: white;
+    font-family: poppins-regular;
+    font-size: 15px;
+    text-align: left;
+    height: 80px;
+    width: 120px;
+    padding-top: 23px;
+    padding-left: 5px;
+    transition: 0.5s ease;
+}
+
+.htmlupgrade:hover .htmleffect {
+    transition: 0.5s ease;
+    right: -65px;
+}
+
+/*--CSS--*/
+
+.cssupgrade {
+    position: relative;
+    visibility: hidden;
+    left: 10px;
+    top: 15px;
+    width: 380px;
+    height: 80px;
+    transform: scale(1);
+    display: flex;
+    text-align: left;
+    background: rgba(0,0,0,0.5);
+    border: transparent;
+    transition: 0.3s ease;
+}
+
+.cssupgrade:hover {
+    transition: 0.3s ease;
+    transform: scale(1.03);
+}
+
+.cssupgrade:active {
+    transition: 0.3s ease;
+    background: rgba(38, 77, 228, 1);
+    transform: scale(0.9);
+}
+
+.csscontent {
+    padding-left: 10px;
+}
+
+.csstext1 {
+    color: #264DE4;
+    text-shadow: 0px 0px 8px #264DE4;
+    font-size: 20px;
+    font-family: poppins-bold;
+}
+
+.csstext2 {
+    color: white;
+    font-family: poppins-regular;
+    text-shadow: 0px 0px 8px white;
+}
+
+.csseffect {
+    background: #264DE4;
+    position: relative;
+    right: -190px;
+    color: white;
+    font-family: poppins-regular;
+    font-size: 13px;
+    text-align: left;
+    padding-left: 5px;
+    height: 80px;
+    width: 120px;
+    padding-top: 23px;
+    transition: 0.5s ease;
+}
+
+.cssupgrade:hover .csseffect {
+    transition: 0.5s ease;
+    right: -65px;
+}
+
+/*--JAVAS--*/
+
+.javasupgrade {
+    visibility: hidden;
+    position: relative;
+    left: 10px;
+    top: 20px;
+    width: 380px;
+    height: 80px;
+    transform: scale(1);
+    display: flex;
+    text-align: left;
+    background: rgba(0,0,0,0.5);
+    border: transparent;
+    transition: 0.3s ease;
+}
+
+.javasupgrade:hover {
+    transition: 0.3s ease;
+    transform: scale(1.03);
+}
+
+.javasupgrade:active {
+    transition: 0.3s ease;
+    background: rgba(243, 222, 43, 1);
+    transform: scale(0.9);
+}
+
+.javascontent {
+    padding-left: 10px;
+}
+
+.javastext1 {
+    color: #F3DE2B;
+    text-shadow: 0px 0px 8px #F3DE2B;
+    font-size: 20px;
+    font-family: poppins-bold;
+}
+
+.javastext2 {
+    color: white;
+    font-family: poppins-regular;
+    text-shadow: 0px 0px 8px white;
+}
+
+.upgradelabel {
+    padding-left: 10px;
+    font-family: poppins-bold;
+    font-size: 20px;
+    color: white;
+    text-shadow: 0px 0px 8px white;
+}
+
+.javaseffect {
+    background: #c4bc21;
+    position: relative;
+    right: -190px;
+    color: white;
+    font-family: poppins-regular;
+    font-size: 12px;
+    text-align: left;
+    height: 80px;
+    width: 120px;
+    padding-top: 23px;
+    padding-left: 5px;
+    transition: 0.5s ease;
+}
+
+.javasupgrade:hover .javaseffect {
+    transition: 0.5s ease;
+    right: -65px;
+}
+
+/*--creator--*/
+
+.creator {
+    position: relative;
+    bottom: 220px;
+    left: 10px;
+    color: white;
+    font-family: poppins-regular;
+    text-shadow: 0px 0px 8px white;
+}

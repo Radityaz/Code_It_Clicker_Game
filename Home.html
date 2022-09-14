@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Riko Aditya Zaki">
+    <title>Code it</title>
+    <link rel="stylesheet" href="Home.css">
+    <link rel="icon" href="image/icon.png">
+</head>
+<body>
+    <div class="background">
+        <div class="bitsname">
+            <span id="bits" class="bitsdisplay" >0</span>
+            Bits<br>
+            <span id="bps" class="bitspersecond">0</span>
+            / Second
+        </div>
+        <button class="bitsbutton" onclick="buttonbitsclick()" >
+            <img id="bitsbutton" style="height: 220px; width: 220px;" src="image/button.png">
+            <div  id="buttonvalue" class="bitsbuttonvalue">0</div>
+        </button>
+        <div class="upgradecontent">
+            <texttitle class="upgradelabel" >\\UPGRADE</texttitle>
+            <button class="htmlupgrade" onclick="htmlupgrade()" id="htmlupgradeclick" >
+                <img  style="height: 80px;" src="image/htmlbutton.png">
+                <div class="htmlcontent">
+                    <text1 class="htmltext1" >HTML</text1><br>
+                    <text2 class="htmltext2" >
+                        Level <span id="htmllevel" >0</span><br>
+                        Upgrade <span id="htmlcost" >25</span> Bits
+                    </text2>
+                </div>
+                <div class="htmleffect">
+                    Bits Perclick<br>
+                    <span id="htmlupgradeeffect" >0</span>
+                </div>
+            </button>
+            <button class="cssupgrade" onclick="cssupgrade()" id="cssupgradeclick" >
+                <img  style="height: 80px;" src="image/cssbutton.png">
+                <div class="csscontent">
+                    <text1 class="csstext1" >CSS</text1><br>
+                    <text2 class="csstext2" >
+                        Level <span id="csslevel" >0</span><br>
+                        Upgrade <span id="csscost" >300</span> Bits
+                    </text2>
+                </div>
+                <div class="csseffect">
+                    Bits Per Second<br>
+                    <span id="cssupgradeeffect" >0</span>
+                </div>
+            </button>
+            <button class="javasupgrade" onclick="javasupgrade()" id="javasupgradeclick" >
+                <img  style="height: 80px;" src="image/javasbutton.png">
+                <div class="javascontent">
+                    <text1 class="javastext1" >JAVA SCRIPT</text1><br>
+                    <text2 class="javastext2" >
+                        Level <span id="javaslevel" >0</span><br>
+                        Upgrade <span id="javascost" >1000</span> Bits
+                    </text2>
+                </div>
+                <div class="javaseffect">
+                    Muliply effect<br>
+                    <span id="javasupgradeeffect" >0</span> x
+                </div>
+            </button>
+        </div>
+        <div class="creator">
+            By Riko | Ver 1.0
+        </div>
+    </div>
+    <script src="Home.js" type="text/javascript"></script>
+</body>
+</html>
